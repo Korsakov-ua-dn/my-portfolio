@@ -1,0 +1,21 @@
+.distantWork {
+    background-color: #fcf1ca;
+}
+.hireMeBlock {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    border: 1px solid;
+}
+.title {
+    background-color: #dcf5f4;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: darksalmon;
+}

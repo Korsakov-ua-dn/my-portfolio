@@ -1,0 +1,22 @@
+.works {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 219, 250);
+}
+.container {
+    flex-direction: column;
+    border: 1px solid;
+}
+.title {
+    margin-bottom: 50px;
+    background-color: rgb(219, 250, 243);
+}
+.worksWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid;
+}

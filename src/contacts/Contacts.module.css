@@ -1,0 +1,32 @@
+.contacts {
+    height: calc(100vh - 80px);
+    background-color: #fdd0df;
+}
+.contactsBlock {
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
+.title {
+    background-color: #fdffe8;
+}
+.userData {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.userData :not(:last-child) {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.userData textarea {
+    width: 100%;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: darksalmon;
+}
